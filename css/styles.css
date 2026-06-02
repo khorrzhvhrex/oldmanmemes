@@ -1,1 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
 
+h1 {
+    margin-bottom: 20px;
+}
+
+.search-section {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 300px;
+    max-width: 90%;
+    padding: 10px;
+}
+
+.meme-container img {
+    max-width: 100%;
+    max-height: 70vh;
+    border-radius: 8px;
+}
+
+#tagsContainer {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    background: #ddd;
+    border-radius: 20px;
+}
+
+.upload-date {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
