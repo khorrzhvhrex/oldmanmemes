@@ -1,14 +1,3 @@
-document.getElementById("prevBtn")
-    .addEventListener("click", () => {
-        alert("Previous Meme");
-    });
+console.log("App loaded");
 
-document.getElementById("nextBtn")
-    .addEventListener("click", () => {
-        alert("Next Meme");
-    });
-
-document.getElementById("randomBtn")
-    .addEventListener("click", () => {
-        alert("Random Meme");
-    });
+console.log(window.supabaseClient);
