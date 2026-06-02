@@ -1,3 +1,15 @@
 console.log("App loaded");
 
-console.log(window.supabaseClient);
+async function testTags() {
+
+    const { data, error } =
+        await window.supabaseClient
+            .from("tags")
+            .select("*");
+
+    console.log("DATA:", data);
+    console.log("ERROR:", error);
+
+}
+
+testTags();
